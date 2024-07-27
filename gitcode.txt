@@ -21,14 +21,14 @@ When we want several people to work on a project
 
 The use of branches in Git is in such a way that each part of the project is given
  to one person and after the work is finished, we merge them.              //  استفاده از شاخه در گیت به این صورت هست که هر قسمت از پروژه به یک نفر داده می شود و بعد از اتمام کار انهها را ادغام می کنیم 
-                                             _________branch2___  
-                                            /                    \
-                                           /                      \
-                                          /   git branch 3         \merge branch2
-                >>git init          -----/------>----\------>-------\--------->-------/--------------->master brach
-                                    git branch 2      \                              /merge brach3
-                                                       \                            /
-                                                        \________________branch3___/
+                              _________branch2___  
+                             /                    \
+                            /                      \
+                           /   git branch 3         \merge branch2
+ >>git init          -----/------>----\------>-------\--------->-------/--------------->master brach
+                     git branch 2      \                              /merge brach3
+                                        \                            /
+                                         \________________branch3___/
 
 >>git branch                 // show the how many brach in your project
 >>git branch name branch       //create new branch
