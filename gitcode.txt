@@ -40,5 +40,5 @@ The use of branches in Git is in such a way that each part of the project is giv
 >>git branch -d python        // deleting python brane 
 When we're done, we delete the branch so we don't get confused   >>وقتی کارمان تمام شد شاخه را حذف می کنیم که دچار سردرگمی نشویم
 >>git rm file.txt         // delete file.txt  حذف کردنی فایلی که لازم نداریم
-<<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~parvaz-owj~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>
+              <<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~parvaz-owj~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>
 
