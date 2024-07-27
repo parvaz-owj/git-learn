@@ -13,9 +13,9 @@ when you adding a file you shold git add file and commit
 >>git add -A  //adding every file
 >>git checkout -- Newwork.txt //cancel the change 
 >>git reset Newwork.txt  //comeback file when befor commit and in the stage
-                         <<<==========>>>
-                              branch
-                              what is brach ?
+                                         <<<==========>>>
+                                              branch
+                                         what is brach ?
 When we want several people to work on a project
  and each part is done by someone, we use the branch in Git.// وقتی می خواهیم چند نفر روی یک پروژه کار کنیم و هر بخش را کسی انجام دهد از شاخه در گیت  استفاده می کنیم 
 
