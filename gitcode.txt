@@ -59,4 +59,6 @@ When we're done, we delete the branch so we don't get confused   >>وقتی کا
                                        |___________|
                                            Github
 
-**                                           
+** 
+git show version  //--
+git tag  //--
