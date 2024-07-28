@@ -44,7 +44,19 @@ When we're done, we delete the branch so we don't get confused   >>وقتی کا
 
             <<=============   how we used Github        =============>>
 
- To use the GitHub site, you must be a member and have an account ///      برای استفاده  سایت گیت هاب  باید در ان عضو شویم و حساب داشته باشیم     
->>git clone "https://github.com/parvaz-owj/mywork.git" // We add the project to our computer   پروژه را به کامپیوتر خود اضافه می کنیم
->>git pull origin main   //After the changes, we load the project in the Git repository with this command
+ To use the GitHub site, you must be a member and have an account     ///      برای استفاده  سایت گیت هاب  باید در ان عضو شویم و حساب داشته باشیم     
+>>git clone "https://github.com/parvaz-owj/mywork.git"            // We add the project to our computer   پروژه را به کامپیوتر خود اضافه می کنیم
+>>git push origin main              //After the changes, we load the project in the Git repository with this command
 بعد از تغییرات پروژه را در مخزن گیت با این دستور بار گزاری می کنیم 
+>>git pull origin main                  //After making changes in GitHub, we download the new file in the system with this command
+بعد از تغییرا در گیت هاب فایل جدید را در سیستم با این دستود دانلود می کنیم
+
+                                       push      pull
+                                         \       /
+                                       |  \     /  |
+                                       |   \   /   |
+                                       |           |
+                                       |___________|
+                                           Github
+
+**                                           
