@@ -40,5 +40,11 @@ The use of branches in Git is in such a way that each part of the project is giv
 >>git branch -d python        // deleting python brane 
 When we're done, we delete the branch so we don't get confused   >>وقتی کارمان تمام شد شاخه را حذف می کنیم که دچار سردرگمی نشویم
 >>git rm file.txt         // delete file.txt  حذف کردنی فایلی که لازم نداریم
-<<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~parvaz-owj~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>
 
+
+            <<=============   how we used Github        =============>>
+
+ To use the GitHub site, you must be a member and have an account ///      برای استفاده  سایت گیت هاب  باید در ان عضو شویم و حساب داشته باشیم     
+>>git clone "https://github.com/parvaz-owj/mywork.git" // We add the project to our computer   پروژه را به کامپیوتر خود اضافه می کنیم
+>>git pull origin main   //After the changes, we load the project in the Git repository with this command
+بعد از تغییرات پروژه را در مخزن گیت با این دستور بار گزاری می کنیم 
