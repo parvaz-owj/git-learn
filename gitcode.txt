@@ -51,7 +51,7 @@ When we're done, we delete the branch so we don't get confused   >>وقتی کا
 >>git pull origin main                  //After making changes in GitHub, we download the new file in the system with this command
 بعد از تغییرا در گیت هاب فایل جدید را در سیستم با این دستود دانلود می کنیم
 
-                                       push      pull
+                                      push       pull
                                          \       /
                                        |  \     /  |
                                        |   \   /   |
@@ -63,4 +63,4 @@ When we're done, we delete the branch so we don't get confused   >>وقتی کا
 >>git tag -a v1.4 -m "my version 1.4"
 >>git show v1.4
 >> git checkout v2.0.0
-**
+**  ++
