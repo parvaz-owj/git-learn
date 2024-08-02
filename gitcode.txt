@@ -59,8 +59,21 @@ When we're done, we delete the branch so we don't get confused   >>وقتی کا
                                        |___________|
                                            Github
 
-** 
->>git tag -a v1.4 -m "my version 1.4"
->>git show v1.4
->> git checkout v2.0.0
-**  ++
+
+
+           <<=============================== git version (tag)   ================================>>
+
+>>git tag -a v1.4 -m "my version 1.4"     // tag project and come back for changes  پروژه را تگ می نیم که هر موقع از قبل بخواهیم داشته باشیم و کار کنیم باشد یا روی نسخه های دیگر بتوانیم کار کنیم 
+>>git show v1.4                             // showing project in version 1.4           به عنوان مثال ورژن 1.4 را به ما نشان می دهد 
+>> git checkout v2.0.0                   // change the version and work in this           ورژن را عوض می کند و می توانیم روی آن ورژن کار کنیم 
+    
+
+                                                                                                                              [v2.9]
+____________________[v1.0]________________[v1.1]_____V____[v1.2]_______________________[v2.0]______________[v2.8]___________>>>>>|>>>>>
+                      |                              |                                                                           |
+                      |                              |                                                                           V
+                      A                              V                                                                           |
+                      |__<___(git checkout v1.1)__<__|                                                         ( git tag -a v2.9 -m 'mark version 2.9')
+                                   V
+                                   V
+                           came bake version 1.1
